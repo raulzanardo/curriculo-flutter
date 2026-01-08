@@ -45,7 +45,6 @@ class _PagePortfolioCopalState extends State<PagePortfolioCopal> {
                 Hero(
                   tag: widget.title,
                   child: Container(
-                    //width: 200,
                     height: 200,
                     decoration: BoxDecoration(
                       borderRadius: const BorderRadius.all(Radius.circular(20)),
@@ -63,7 +62,7 @@ class _PagePortfolioCopalState extends State<PagePortfolioCopal> {
                 ),
                 WidgetTextBox('', 'O aplicativo foi desenvolvido em Flutter para Android e iOS e é disponibilizado livremente, apenas com a necessidade de uma chave de licença para que os dados possam ser enviados para o robô.'.i18n),
                 WidgetTextBox('', 'A experiência do usuário é simples e o induz a seguir um “Wizard” com as etapas necessárias para a finalização da parametrização.  No final do processo o aplicativo acessa a tela remota do controlador do robô para que o mesmo seja acionado pelo aplicativo.'.i18n),
-                //TODO Arrumar transparencia das imagens dos prints
+
                 MouseRegion(
                   cursor: SystemMouseCursors.click,
                   child: GestureDetector(
@@ -118,7 +117,6 @@ class _PagePortfolioCopalState extends State<PagePortfolioCopal> {
                                         ),
                                         IconButton(
                                           onPressed: () => _carouselController.nextPage(),
-                                          //icon: const Icon(Icons.navigate_next),
                                           icon: const SizedBox(height: double.infinity, width: 20, child: Icon(Icons.navigate_next)),
                                         ),
                                       ],
@@ -144,7 +142,6 @@ class _PagePortfolioCopalState extends State<PagePortfolioCopal> {
                 const SizedBox(height: 20.0),
                 WidgetTextBox('', 'Com o intuito de unificar a experiência do usuário ao longo do ecossistema CoPal, também desenvolvi a interface gráfica da tela do controlador do robô. A interface tenta ser fiel ao aplicativo, mesmo com as limitações do sistema.'.i18n),
 
-                //FIXME corrigir largura dos icones das paginas de store
                 LayoutBuilder(
                   builder: (BuildContext context, BoxConstraints constraints) {
                     return Row(

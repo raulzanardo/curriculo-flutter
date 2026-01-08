@@ -7,9 +7,6 @@ import '../widgets/widget_text_box.dart';
 
 import '../localization/localization_resume.i18n.dart';
 
-//https://www.coderzheaven.com/2019/04/26/tabbedappbar-in-flutter-android-and-ios/
-
-//TODO verificar animação na tela de prints : https://www.youtube.com/watch?v=WQC50wCrL2o
 class PageResume extends StatefulWidget {
   const PageResume({super.key});
 
@@ -30,24 +27,11 @@ class _PageResumeState extends State<PageResume> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Wrap(
-                ///Foto e text (1 e 2)
-                //alignment: WrapAlignment.center,
                 children: [
+                  Container(alignment: Alignment.center, width: (MediaQuery.of(context).size.width > 800) ? 200 : double.infinity, child: const WidgetPhoto()),
                   Container(
-                    alignment: Alignment.center,
-                    width: (MediaQuery.of(context).size.width > 800)
-                        ? 200
-                        : double.infinity,
-                    child: const WidgetPhoto(),
-                  ),
-                  Container(
-                    padding: (MediaQuery.of(context).size.width > 800)
-                        ? const EdgeInsets.fromLTRB(20.0, 0, 0, 20.0)
-                        : const EdgeInsets.all(0.0),
-                    // width:  500 ,
-                    width: (MediaQuery.of(context).size.width > 800)
-                        ? 500
-                        : double.infinity,
+                    padding: (MediaQuery.of(context).size.width > 800) ? const EdgeInsets.fromLTRB(20.0, 0, 0, 20.0) : const EdgeInsets.all(0.0),
+                    width: (MediaQuery.of(context).size.width > 800) ? 500 : double.infinity,
 
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -55,14 +39,9 @@ class _PageResumeState extends State<PageResume> {
                       children: [
                         WidgetTextBox(
                           'Objetivo'.i18n,
-                          'Procuro oportunidades como desenvolvedor de aplicativos móveis, especializado em Flutter, para aplicar minha experiência em desenvolvimento de software, conhecimentos de UX e habilidades técnicas na criação de aplicações móveis inovadoras.'
-                              .i18n,
+                          'Procuro oportunidades como desenvolvedor de aplicativos móveis, especializado em Flutter, para aplicar minha experiência em desenvolvimento de software, conhecimentos de UX e habilidades técnicas na criação de aplicações móveis inovadoras.'.i18n,
                         ),
-                        WidgetTextBox(
-                          'Resumo Profissional'.i18n,
-                          'Tenho experiência em desenvolvimento de aplicativos para Android e iOS usando Flutter e Dart, incluindo design de interface de usuário e lançamento nas lojas de aplicativos.'
-                              .i18n,
-                        ),
+                        WidgetTextBox('Resumo Profissional'.i18n, 'Tenho experiência em desenvolvimento de aplicativos para Android e iOS usando Flutter e Dart, incluindo design de interface de usuário e lançamento nas lojas de aplicativos.'.i18n),
                         Visibility(
                           visible: (MediaQuery.of(context).size.width > 800),
                           child: Column(
@@ -71,25 +50,15 @@ class _PageResumeState extends State<PageResume> {
                                 children: [
                                   IconButton(
                                     onPressed: () async {
-                                      launchUrl(
-                                        Uri.parse(
-                                          'https://github.com/raulzanardo',
-                                        ),
-                                      );
+                                      launchUrl(Uri.parse('https://github.com/raulzanardo'));
                                     },
                                     icon: WidgetCustomIcon(iconName: 'github'),
                                   ),
                                   IconButton(
                                     onPressed: () {
-                                      launchUrl(
-                                        Uri.parse(
-                                          'https://www.linkedin.com/in/raulzanardo/',
-                                        ),
-                                      );
+                                      launchUrl(Uri.parse('https://www.linkedin.com/in/raulzanardo/'));
                                     },
-                                    icon: WidgetCustomIcon(
-                                      iconName: 'linkedin',
-                                    ),
+                                    icon: WidgetCustomIcon(iconName: 'linkedin'),
                                   ),
                                 ],
                               ),
@@ -100,16 +69,9 @@ class _PageResumeState extends State<PageResume> {
                     ),
                   ),
                   const Divider(),
-                  // --------------------------------------------------------------------------------------------------------------
                 ],
               ),
-              Text(
-                'Experiência Profissional'.i18n,
-                style: const TextStyle(
-                  fontSize: 24.0,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
+              Text('Experiência Profissional'.i18n, style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold)),
               const SizedBox(height: 20.0),
               WidgetTextBox(
                 'Desenvolvedor Flutter na Pensenova'.i18n,
@@ -121,79 +83,22 @@ class _PageResumeState extends State<PageResume> {
                 'Desenvolvimento de projetos de automação envolvendo sistemas de monitoramento industrial (Scada), robótica e aplicações voltadas para processos de pintura industrial. Elaboração de esquemas elétricos para montagem de quadros elétricos utilizando o EPLAN. – 06/10/2014 até 30/04/2018'
                     .i18n,
               ),
-              WidgetTextBox(
-                'Técnico em eletrônica na Flex Automation'.i18n,
-                'Responsável pelo gerenciamento do setor de manutenção de módulos de automação residencial, também fiz parte do time que efetuava manutenção e montagem de placas de circuito eletrônico. - 02/05/2014 até 30/09/2014'
-                    .i18n,
-              ),
-              WidgetTextBox(
-                'Estagiário de automação na Nova Tecnologia'.i18n,
-                'Desenvolvimento de sistemas de controle e automação predial e de eficiência energética.  05/11/2012 até 25/10/2013.'
-                    .i18n,
-              ),
-              Text(
-                'Formação Acadêmica'.i18n,
-                style: const TextStyle(
-                  fontSize: 24.0,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
+              WidgetTextBox('Técnico em eletrônica na Flex Automation'.i18n, 'Responsável pelo gerenciamento do setor de manutenção de módulos de automação residencial, também fiz parte do time que efetuava manutenção e montagem de placas de circuito eletrônico. - 02/05/2014 até 30/09/2014'.i18n),
+              WidgetTextBox('Estagiário de automação na Nova Tecnologia'.i18n, 'Desenvolvimento de sistemas de controle e automação predial e de eficiência energética.  05/11/2012 até 25/10/2013.'.i18n),
+              Text('Formação Acadêmica'.i18n, style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold)),
               const SizedBox(height: 20.0),
-              WidgetTextBox(
-                'Graduação em Engenharia de Controle e Automação'.i18n,
-                'IFSP Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - 01/06/2009 a 28/08/2019'
-                    .i18n,
-              ),
-              WidgetTextBox(
-                'Técnico em Eletrônica'.i18n,
-                'ETEC Professor Aprígio Gonzaga - 01/06/2007 a 15/12/2008'.i18n,
-              ),
-              Text(
-                'Cursos Complementares'.i18n,
-                style: const TextStyle(
-                  fontSize: 20.0,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              Text(
-                'Certificado Profissional Google UX Design (Coursera - Nível 1 - Março de 2024)'
-                    .i18n,
-                textAlign: TextAlign.justify,
-              ),
-              Text(
-                'Flutter Provider Essential Course (Udemy - Março/Abril de 2024)'
-                    .i18n,
-                textAlign: TextAlign.justify,
-              ),
+              WidgetTextBox('Graduação em Engenharia de Controle e Automação'.i18n, 'IFSP Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - 01/06/2009 a 28/08/2019'.i18n),
+              WidgetTextBox('Técnico em Eletrônica'.i18n, 'ETEC Professor Aprígio Gonzaga - 01/06/2007 a 15/12/2008'.i18n),
+              Text('Cursos Complementares'.i18n, style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold)),
+              Text('Certificado Profissional Google UX Design (Coursera - Nível 1 - Março de 2024)'.i18n, textAlign: TextAlign.justify),
+              Text('Flutter Provider Essential Course (Udemy - Março/Abril de 2024)'.i18n, textAlign: TextAlign.justify),
               const SizedBox(height: 20.0),
-              Text(
-                'Habilidades'.i18n,
-                style: const TextStyle(
-                  fontSize: 20.0,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              Text(
-                'Linguagens: Dart, C/C++, Python, Bash, HTML, JavaScript'.i18n,
-                textAlign: TextAlign.justify,
-              ),
-              Text(
-                'Ferramentas: Android Studio, VSCode'.i18n,
-                textAlign: TextAlign.justify,
-              ),
-              Text(
-                'Plataformas: Flutter, Android, iOS, PlatformIO, Linux, Arduino'
-                    .i18n,
-                textAlign: TextAlign.justify,
-              ),
-              Text(
-                'Versionamento de Código: Git, Github'.i18n,
-                textAlign: TextAlign.justify,
-              ),
-              Text(
-                'Idiomas: Inglês avançado'.i18n,
-                textAlign: TextAlign.justify,
-              ),
+              Text('Habilidades'.i18n, style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold)),
+              Text('Linguagens: Dart, C/C++, Python, Bash, HTML, JavaScript'.i18n, textAlign: TextAlign.justify),
+              Text('Ferramentas: Android Studio, VSCode'.i18n, textAlign: TextAlign.justify),
+              Text('Plataformas: Flutter, Android, iOS, PlatformIO, Linux, Arduino'.i18n, textAlign: TextAlign.justify),
+              Text('Versionamento de Código: Git, Github'.i18n, textAlign: TextAlign.justify),
+              Text('Idiomas: Inglês avançado'.i18n, textAlign: TextAlign.justify),
             ],
           ),
         ),

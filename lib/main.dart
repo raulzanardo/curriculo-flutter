@@ -22,13 +22,8 @@ class MyApp extends StatelessWidget {
       localizationsDelegates: const [GlobalMaterialLocalizations.delegate, GlobalWidgetsLocalizations.delegate, GlobalCupertinoLocalizations.delegate],
       supportedLocales: const [Locale('pt', "BR"), Locale('en', "US")],
       theme: themeNotifier.getTheme(),
-
       themeMode: ThemeMode.system,
-      home: I18n(
-        initialLocale: const Locale('pt', 'BR'),
-        //initialLocale: const Locale('en', 'US'),
-        child: const PageHome(),
-      ),
+      home: I18n(initialLocale: const Locale('pt', 'BR'), child: const PageHome()),
     );
   }
 }

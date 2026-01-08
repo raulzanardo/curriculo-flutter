@@ -20,11 +20,9 @@ class _WidgetPortfolioItemState extends State<WidgetPortfolioItem> {
       cursor: SystemMouseCursors.click,
       child: GestureDetector(
         onTap: () {
-          //TODO alterar transição das paginas do portifolio
           Navigator.push(context, MaterialPageRoute(builder: (context) => widget.portfolioPage));
         },
         child: SizedBox(
-          //width: 200,
           width: (MediaQuery.of(context).size.width < 500) ? double.infinity : 200,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
