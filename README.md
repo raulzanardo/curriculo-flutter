@@ -90,4 +90,5 @@ Este é meu portfólio pessoal e currículo interativo, projetado para apresenta
 
 ---
 
+
 **Developed with Flutter** | **Desenvolvido com Flutter**
