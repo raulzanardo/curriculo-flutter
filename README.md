@@ -2,7 +2,7 @@
 
 A modern, responsive web application showcasing my professional portfolio and resume, built with Flutter for seamless cross-platform experience.
 
-[View Live Demo](https://raulzanardo.github.io/curriculo) (if deployed)
+[View Live Demo](https://raulzanardo.github.io/curriculo-flutter/) (if deployed)
 
 ---
 
