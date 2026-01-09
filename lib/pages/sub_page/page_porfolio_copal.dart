@@ -141,6 +141,18 @@ class _PagePortfolioCopalState extends State<PagePortfolioCopal> {
                 ),
                 const SizedBox(height: 20.0),
                 WidgetTextBox('', 'Com o intuito de unificar a experiência do usuário ao longo do ecossistema CoPal, também desenvolvi a interface gráfica da tela do controlador do robô. A interface tenta ser fiel ao aplicativo, mesmo com as limitações do sistema.'.i18n),
+                const SizedBox(height: 20.0),
+
+                // Technology Stack
+                Text('Stack Tecnológico:'.i18n, style: const TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
+                const SizedBox(height: 10.0),
+                const Text('• Flutter & Dart'),
+                const Text('• Android & iOS'),
+                const Text('• Provider (State Management)'),
+                const Text('• IoT Integration'),
+                const Text('• Industrial Automation'),
+                const Text('• Remote Control Systems'),
+                const SizedBox(height: 20.0),
 
                 LayoutBuilder(
                   builder: (BuildContext context, BoxConstraints constraints) {
