@@ -27,22 +27,18 @@ class _PageAboutState extends State<PageAbout> {
             children: [
               WidgetTextBox(
                 'Oi, meu nome é Raul!'.i18n,
-                'Sou desenvolvedor Flutter há 3 anos. Como sou formado em Engenharia de controle e automação, desenvolvo aplicativos para o setor industrial, trabalhando desde o início do conceito, definindo e criando interfaces e fluxos de usuário, fazendo testes, até a publicação.'
+                'Sou desenvolvedor Flutter há mais de 5 anos. Com formação em Engenharia de Controle e Automação, especializo-me no desenvolvimento de aplicativos para o setor industrial, atuando em todo o ciclo de desenvolvimento: desde a concepção e design de interfaces até testes, otimização e publicação de soluções robustas e escaláveis.'
+                    .i18n,
+              ),
+              WidgetTextBox('', 'Nascido e criado em São Paulo, sou apaixonado por tecnologia e inovação. Nos meus momentos livres, exercito minha criatividade através da programação, design de interfaces, desenvolvimento de projetos eletrônicos e produção musical.'.i18n),
+              WidgetTextBox(
+                '',
+                'Reconhecido pela minha abordagem criativa na resolução de problemas e paixão por inovação, valorizo a experimentação e não tenho receio de explorar novas tecnologias. Acredito em metas bem definidas, comunicação clara e processos estruturados. Família e amigos são fundamentais na minha vida, proporcionando equilíbrio entre vida pessoal e profissional.'
                     .i18n,
               ),
               WidgetTextBox(
                 '',
-                'Nascido e criado em São Paulo, adoro exercitar minha criatividade programando, criando interfaces, desenvolvendo dispositivos eletrônicos e fazendo música.'
-                    .i18n,
-              ),
-              WidgetTextBox(
-                '',
-                'Sou conhecido pela minha forma criativa de pensar e resolver problemas, minha paixão por construir e modificar coisas, por sempre pensar no futuro e não ter medo de experimentar ou fazer algo novo e excitante. Valorizando uma meta bem definida, com estrutura e ordem, gosto de comunicação clara e objetiva. Família e amigos são minhas coisas mais importantes.'
-                    .i18n,
-              ),
-              WidgetTextBox(
-                '',
-                'Já trabalhei programando Controladores lógicos industriais, desenvolvendo trajetórias e interfaces gráficas para sistemas que utilizam robôs de pintura e paletização, criando e integrando sistemas de monitoramento e coleta de dados para plantas industriais. Também me aventurei no mundo da música, como produtor, engenheiro de som de palco e em estúdios e como roadie.'
+                'Minha experiência inclui programação de CLPs (Controladores Lógicos Programáveis), desenvolvimento de sistemas para robótica industrial (pintura e paletização), e criação de soluções completas de IoT para monitoramento e análise de dados em plantas industriais. Também possuo experiência diversificada no setor de áudio e música, atuando como produtor musical, engenheiro de som e técnico de palco.'
                     .i18n,
               ),
               const SizedBox(height: 20.0),
@@ -56,10 +52,7 @@ class _PageAboutState extends State<PageAbout> {
                       onTap: () {
                         launchUrl(emailLaunchUri);
                       },
-                      child: const Text(
-                        'raulzanardo@gmail.com',
-                        style: TextStyle(color: Colors.blue),
-                      ),
+                      child: const Text('raulzanardo@gmail.com', style: TextStyle(color: Colors.blue)),
                     ),
                   ),
                 ],
@@ -75,10 +68,7 @@ class _PageAboutState extends State<PageAbout> {
                       onTap: () {
                         launchUrl(Uri.parse('https://github.com/raulzanardo'));
                       },
-                      child: const Text(
-                        'github.com/raulzanardo',
-                        style: TextStyle(color: Colors.blue),
-                      ),
+                      child: const Text('github.com/raulzanardo', style: TextStyle(color: Colors.blue)),
                     ),
                   ),
                 ],
@@ -92,14 +82,9 @@ class _PageAboutState extends State<PageAbout> {
                     cursor: SystemMouseCursors.click,
                     child: GestureDetector(
                       onTap: () {
-                        launchUrl(
-                          Uri.parse('https://www.linkedin.com/in/raulzanardo/'),
-                        );
+                        launchUrl(Uri.parse('https://www.linkedin.com/in/raulzanardo/'));
                       },
-                      child: const Text(
-                        'linkedin.com/in/raulzanardo/',
-                        style: TextStyle(color: Colors.blue),
-                      ),
+                      child: const Text('linkedin.com/in/raulzanardo/', style: TextStyle(color: Colors.blue)),
                     ),
                   ),
                 ],
@@ -115,10 +100,7 @@ class _PageAboutState extends State<PageAbout> {
                       shape: BoxShape.rectangle,
                       borderRadius: BorderRadius.all(Radius.circular(20)),
                       color: Colors.white,
-                      image: DecorationImage(
-                        fit: BoxFit.fitWidth,
-                        image: AssetImage('assets/images/photo_about.png'),
-                      ),
+                      image: DecorationImage(fit: BoxFit.fitWidth, image: AssetImage('assets/images/photo_about.png')),
                     ),
                   );
                 },

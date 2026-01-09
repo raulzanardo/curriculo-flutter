@@ -7,27 +7,25 @@ extension Localization on String {
       {"pt-BR": "Oi, meu nome é Raul!", "en-US": "Hello, my name is Raul!"} +
       {
         "pt-BR":
-            "Sou desenvolvedor Flutter há 3 anos. Como sou formado em Engenharia de controle e automação, desenvolvo aplicativos para o setor industrial, trabalhando desde o início do conceito, definindo e criando interfaces e fluxos de usuário, fazendo testes, até a publicação.",
+            "Sou desenvolvedor Flutter há mais de 5 anos. Com formação em Engenharia de Controle e Automação, especializo-me no desenvolvimento de aplicativos para o setor industrial, atuando em todo o ciclo de desenvolvimento: desde a concepção e design de interfaces até testes, otimização e publicação de soluções robustas e escaláveis.",
         "en-US":
-            "I've been a Flutter developer for 3 years. As I have a degree in Control and Automation Engineering, I develop applications for the industrial sector, working from the beginning of the concept, defining and creating interfaces and user flows, testing, until publication.",
+            "I've been a Flutter developer for over 5 years. With a degree in Control and Automation Engineering, I specialize in developing applications for the industrial sector, working throughout the entire development cycle: from concept and interface design to testing, optimization, and publishing robust and scalable solutions.",
+      } +
+      {
+        "pt-BR": "Nascido e criado em São Paulo, sou apaixonado por tecnologia e inovação. Nos meus momentos livres, exercito minha criatividade através da programação, design de interfaces, desenvolvimento de projetos eletrônicos e produção musical.",
+        "en-US": "Born and raised in São Paulo, I'm passionate about technology and innovation. In my free time, I exercise my creativity through programming, interface design, electronic projects, and music production.",
       } +
       {
         "pt-BR":
-            "Nascido e criado em São Paulo, adoro exercitar minha criatividade programando, criando interfaces, desenvolvendo dispositivos eletrônicos e fazendo música.",
+            "Reconhecido pela minha abordagem criativa na resolução de problemas e paixão por inovação, valorizo a experimentação e não tenho receio de explorar novas tecnologias. Acredito em metas bem definidas, comunicação clara e processos estruturados. Família e amigos são fundamentais na minha vida, proporcionando equilíbrio entre vida pessoal e profissional.",
         "en-US":
-            "Born and raised in São Paulo, I love exercising my creativity by programming, creating interfaces, developing electronic devices and making music.",
+            "Known for my creative approach to problem-solving and passion for innovation, I value experimentation and embrace exploring new technologies. I believe in well-defined goals, clear communication, and structured processes. Family and friends are fundamental in my life, providing balance between personal and professional life.",
       } +
       {
         "pt-BR":
-            "Sou conhecido pela minha forma criativa de pensar e resolver problemas, minha paixão por construir e modificar coisas, por sempre pensar no futuro e não ter medo de experimentar ou fazer algo novo e excitante. Valorizando uma meta bem definida, com estrutura e ordem, gosto de comunicação clara e objetiva. Família e amigos são minhas coisas mais importantes.",
+            "Minha experiência inclui programação de CLPs (Controladores Lógicos Programáveis), desenvolvimento de sistemas para robótica industrial (pintura e paletização), e criação de soluções completas de IoT para monitoramento e análise de dados em plantas industriais. Também possuo experiência diversificada no setor de áudio e música, atuando como produtor musical, engenheiro de som e técnico de palco.",
         "en-US":
-            "I am known for my creative way of thinking and solving problems, my passion for building and modifying things, for always thinking about the future and not being afraid to experiment or do something new and exciting. Valuing a well-defined goal, with structure and order, I like clear and objective communication. Family and friends are my most important things.",
-      } +
-      {
-        "pt-BR":
-            "Já trabalhei programando Controladores lógicos industriais, desenvolvendo trajetórias e interfaces gráficas para sistemas que utilizam robôs de pintura e paletização, criando e integrando sistemas de monitoramento e coleta de dados para plantas industriais. Também me aventurei no mundo da música, como produtor, engenheiro de som de palco e em estúdios e como roadie.",
-        "en-US":
-            "I have worked programming industrial logic controllers, developing trajectories and graphical interfaces for systems that use painting and palletizing robots, creating and integrating monitoring and data collection systems for industrial plants. I also ventured into the world of music, as a producer, sound engineer on stage and in studios and as a roadie.",
+            "My experience includes PLC (Programmable Logic Controllers) programming, industrial robotics systems development (painting and palletizing), and creating complete IoT solutions for monitoring and data analysis in industrial plants. I also have diverse experience in the audio and music sector, working as a music producer, sound engineer, and stage technician.",
       };
 
   String get i18n => localize(this, _t);
