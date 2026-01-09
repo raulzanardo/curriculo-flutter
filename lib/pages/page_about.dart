@@ -27,7 +27,7 @@ class _PageAboutState extends State<PageAbout> {
             children: [
               WidgetTextBox(
                 'Oi, meu nome é Raul!'.i18n,
-                'Sou desenvolvedor Flutter há mais de 5 anos. Com formação em Engenharia de Controle e Automação, especializo-me no desenvolvimento de aplicativos para o setor industrial, atuando em todo o ciclo de desenvolvimento: desde a concepção e design de interfaces até testes, otimização e publicação de soluções robustas e escaláveis.'
+                'Sou desenvolvedor Flutter há mais de 5 anos e também trabalho com desenvolvimento web utilizando React e backend com NestJS. Com formação em Engenharia de Controle e Automação, especializo-me no desenvolvimento de aplicativos mobile e web para o setor industrial, atuando em todo o ciclo de desenvolvimento: desde a concepção e design de interfaces até testes, otimização e publicação de soluções robustas e escaláveis.'
                     .i18n,
               ),
               WidgetTextBox('', 'Nascido e criado em São Paulo, sou apaixonado por tecnologia e inovação. Nos meus momentos livres, exercito minha criatividade através da programação, design de interfaces, desenvolvimento de projetos eletrônicos e produção musical.'.i18n),
@@ -38,7 +38,7 @@ class _PageAboutState extends State<PageAbout> {
               ),
               WidgetTextBox(
                 '',
-                'Minha experiência inclui programação de CLPs (Controladores Lógicos Programáveis), desenvolvimento de sistemas para robótica industrial (pintura e paletização), e criação de soluções completas de IoT para monitoramento e análise de dados em plantas industriais. Também possuo experiência diversificada no setor de áudio e música, atuando como produtor musical, engenheiro de som e técnico de palco.'
+                'Minha experiência inclui desenvolvimento web com React, desenvolvimento de APIs backend com NestJS, programação de CLPs (Controladores Lógicos Programáveis), desenvolvimento de sistemas para robótica industrial (pintura e paletização), e criação de soluções completas de IoT para monitoramento e análise de dados em plantas industriais. Também possuo experiência diversificada no setor de áudio e música, atuando como produtor musical, engenheiro de som e técnico de palco.'
                     .i18n,
               ),
               const SizedBox(height: 20.0),

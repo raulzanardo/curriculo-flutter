@@ -39,7 +39,7 @@ class _PageResumeState extends State<PageResume> {
                       children: [
                         WidgetTextBox(
                           'Resumo Profissional'.i18n,
-                          'Desenvolvedor Frontend e Mobile com mais de 5 anos de experiência na criação de produtos digitais para web e mobile. Especialista em Flutter e React, com forte foco em UX/UI, performance e qualidade de código.\n\nAtuação em produtos SaaS e aplicativos em produção, participando ativamente de decisões técnicas, arquitetura e evolução de produto. Possui background em automação industrial e eletrônica, trazendo visão sistêmica, confiabilidade e engenharia de alto nível para o desenvolvimento de software moderno.\n\nExperiência em AI-assisted development, utilizando ferramentas como GitHub Copilot, Cursor e Windsurf para acelerar desenvolvimento e otimizar produtividade. Proficiente em prompt engineering para maximizar eficiência com AI agents no ciclo de desenvolvimento.'
+                          'Desenvolvedor Frontend, Mobile e Backend com mais de 5 anos de experiência na criação de produtos digitais para web e mobile. Especialista em Flutter, React e NestJS, com forte foco em UX/UI, performance e qualidade de código.\n\nAtuação em produtos SaaS e aplicativos em produção, participando ativamente de decisões técnicas, arquitetura e evolução de produto. Possui background em automação industrial e eletrônica, trazendo visão sistêmica, confiabilidade e engenharia de alto nível para o desenvolvimento de software moderno.\n\nExperiência em AI-assisted development, utilizando ferramentas como GitHub Copilot, Cursor e Windsurf para acelerar desenvolvimento e otimizar produtividade. Proficiente em prompt engineering para maximizar eficiência com AI agents no ciclo de desenvolvimento.'
                               .i18n,
                         ),
                         Visibility(
@@ -80,7 +80,7 @@ class _PageResumeState extends State<PageResume> {
               ),
               WidgetTextBox(
                 'Desenvolvedor Flutter na MyOrbit'.i18n,
-                'Desenvolvimento do aplicativo MyOrbit, focado na gestão de relacionamentos e organização de círculos sociais com forte ênfase em privacidade. Desenvolvimento mobile com Flutter/Dart para Android e iOS, participação direta na concepção do produto e decisões técnicas. Implementação de fluxos complexos de UX/UI em colaboração com design. Contribuição no backend, implementando APIs e regras de negócio. Aplicação de clean architecture e design patterns para escalabilidade. - Maio de 2024 até Dezembro de 2025'
+                'Desenvolvimento do aplicativo MyOrbit, focado na gestão de relacionamentos e organização de círculos sociais com forte ênfase em privacidade. Desenvolvimento mobile com Flutter/Dart para Android e iOS, participação direta na concepção do produto e decisões técnicas. Implementação de fluxos complexos de UX/UI em colaboração com design. Desenvolvimento backend com NestJS/TypeScript, criando APIs REST escaláveis. Design e implementação de modelos de banco de dados e lógica de negócio. Autenticação, autorização e boas práticas de segurança. Aplicação de clean architecture e design patterns para escalabilidade. - Maio de 2024 até Dezembro de 2025'
                     .i18n,
               ),
               WidgetTextBox(
@@ -104,7 +104,7 @@ class _PageResumeState extends State<PageResume> {
               const SizedBox(height: 20.0),
               Text('Tecnologias'.i18n, style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold)),
               Text('Mobile: Flutter • Dart • Android • iOS • Provider'.i18n, textAlign: TextAlign.justify),
-              Text('Web: React • TypeScript • JavaScript • HTML • CSS • Node.js'.i18n, textAlign: TextAlign.justify),
+              Text('Web: React • TypeScript • JavaScript • HTML • CSS • Node.js • NestJS'.i18n, textAlign: TextAlign.justify),
               Text('Cloud & DevOps: Microsoft Azure • CI/CD • Git • GitHub • Docker'.i18n, textAlign: TextAlign.justify),
               Text('Outras Tecnologias: Python • C/C++ • Bash • Arduino • PlatformIO • Linux'.i18n, textAlign: TextAlign.justify),
               Text('Ferramentas: VS Code • Android Studio • Xcode • Figma • EPLAN'.i18n, textAlign: TextAlign.justify),
