@@ -85,8 +85,9 @@ Este é meu portfólio pessoal e currículo interativo, projetado para apresenta
 
 ## Contact / Contato
 
-- **Email**: raul.zanardo@example.com
+- **Email**: raulzanardo@gmail.com
 - **LinkedIn**: [linkedin.com/in/raulzanardo](https://linkedin.com/in/raulzanardo)
+- **GitHub**: [github.com/raulzanardo](https://github.com/raulzanardo)
 
 ---
 

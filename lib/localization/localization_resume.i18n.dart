@@ -4,114 +4,66 @@ extension Localization on String {
   static final _t =
       Translations.byText("pt-BR") +
       {"pt-BR": "", "en-US": ""} +
-      {"pt-BR": "Objetivo", "en-US": "Goal"} +
+      {"pt-BR": "Resumo Profissional", "en-US": "Professional Summary"} +
       {
         "pt-BR":
-            "Procuro oportunidades como desenvolvedor de aplicativos móveis, especializado em Flutter, para aplicar minha experiência em desenvolvimento de software, conhecimentos de UX e habilidades técnicas na criação de aplicações móveis inovadoras.",
+            "Desenvolvedor Frontend e Mobile com mais de 5 anos de experiência na criação de produtos digitais para web e mobile. Especialista em Flutter e React, com forte foco em UX/UI, performance e qualidade de código.\n\nAtuação em produtos SaaS e aplicativos em produção, participando ativamente de decisões técnicas, arquitetura e evolução de produto. Possui background em automação industrial e eletrônica, trazendo visão sistêmica, confiabilidade e engenharia de alto nível para o desenvolvimento de software moderno.\n\nExperiência em AI-assisted development, utilizando ferramentas como GitHub Copilot, Cursor e Windsurf para acelerar desenvolvimento e otimizar produtividade. Proficiente em prompt engineering para maximizar eficiência com AI agents no ciclo de desenvolvimento.",
         "en-US":
-            "I'm looking for opportunities as a mobile application developer, specializing in Flutter, to apply my software development experience, UX knowledge and technical skills to create innovative mobile applications.",
+            "Frontend and Mobile Developer with over 5 years of experience creating digital products for web and mobile. Specialist in Flutter and React, with strong focus on UX/UI, performance, and code quality.\n\nWorking on SaaS products and production applications, actively participating in technical decisions, architecture, and product evolution. Background in industrial automation and electronics, bringing systemic vision, reliability, and high-level engineering to modern software development.\n\nExperience in AI-assisted development, using tools such as GitHub Copilot, Cursor, and Windsurf to accelerate development and optimize productivity. Proficient in prompt engineering to maximize efficiency with AI agents in the development cycle.",
       } +
-      {"pt-BR": "Resumo Profissional", "en-US": "Professional Resume"} +
+      {"pt-BR": "Experiência Profissional", "en-US": "Professional Experience"} +
+      {"pt-BR": "Desenvolvedor Frontend na Petplace", "en-US": "Frontend Developer at Petplace"} +
       {
         "pt-BR":
-            "Tenho experiência em desenvolvimento de aplicativos para Android e iOS usando Flutter e Dart, incluindo design de interface de usuário e lançamento nas lojas de aplicativos.",
+            "Atuação no desenvolvimento do 24Pet Shelter, plataforma SaaS para gestão de abrigos e ONGs de proteção animal. Desenvolvimento e evolução do frontend utilizando React e TypeScript, implementação de interfaces acessíveis, responsivas e performáticas. Otimização de fluxos críticos para usuários não técnicos, melhorando a usabilidade do sistema. Colaboração próxima com times de produto, QA e DevOps em ambiente ágil. Integração com pipelines de CI/CD no Microsoft Azure. - Maio de 2024 até Dezembro de 2025",
         "en-US":
-            "I have experience developing apps for Android and iOS using Flutter and Dart, including user interface design and launch in app stores.",
+            "Working on the development of 24Pet Shelter, a SaaS platform for managing animal shelters and protection NGOs. Frontend development and evolution using React and TypeScript, implementation of accessible, responsive, and performant interfaces. Optimization of critical flows for non-technical users, improving system usability. Close collaboration with product, QA, and DevOps teams in an agile environment. Integration with CI/CD pipelines on Microsoft Azure. - May 2024 to December 2025",
       } +
-      {
-        "pt-BR": "Experiência Profissional",
-        "en-US": "Professional experience",
-      } +
-      {
-        "pt-BR": "Desenvolvedor Flutter na Pensenova",
-        "en-US": "Flutter Developer at Pensenova",
-      } +
+      {"pt-BR": "Desenvolvedor Flutter na MyOrbit", "en-US": "Flutter Developer at MyOrbit"} +
       {
         "pt-BR":
-            "Responsável pelo desenvolvimento de aplicativos móveis para automação industrial, utilizando Flutter e Dart. Conduzindo o ciclo completo de desenvolvimento de aplicativos, desde a concepção até o lançamento, garantindo alta qualidade e performance e experiência do usuário. Destacando o projeto CoPal, no qual desenvolvi o aplicativo de parametrização juntamente com a UX/UI do sistema de controle do Robô. - 05/10/2020 até o presente",
+            "Desenvolvimento do aplicativo MyOrbit, focado na gestão de relacionamentos e organização de círculos sociais com forte ênfase em privacidade. Desenvolvimento mobile com Flutter/Dart para Android e iOS, participação direta na concepção do produto e decisões técnicas. Implementação de fluxos complexos de UX/UI em colaboração com design. Contribuição no backend, implementando APIs e regras de negócio. Aplicação de clean architecture e design patterns para escalabilidade. - Maio de 2024 até Dezembro de 2025",
         "en-US":
-            "Responsible for developing mobile applications for industrial automation, using Flutter and Dart. Conducting the complete application development cycle, from conception to launch, ensuring high quality, performance and user experience. Highlighting the CoPal project, in which I developed the parameterization application together with the UX/UI of the Robot control system. - 10/05/2020 to now",
+            "Development of the MyOrbit application, focused on relationship management and social circle organization with strong emphasis on privacy. Mobile development with Flutter/Dart for Android and iOS, direct participation in product conception and technical decisions. Implementation of complex UX/UI flows in collaboration with design. Backend contribution, implementing APIs and business rules. Application of clean architecture and design patterns for scalability. - May 2024 to December 2025",
       } +
-      {
-        "pt-BR": "Desenvolvedor de automação na Nova Tecnologia",
-        "en-US": "Automation developer at Nova Tecnologia",
-      } +
+      {"pt-BR": "Desenvolvedor Flutter na Pensenova", "en-US": "Flutter Developer at Pensenova"} +
       {
         "pt-BR":
-            "Desenvolvimento de projetos de automação envolvendo sistemas de monitoramento industrial (Scada), robótica e aplicações voltadas para processos de pintura industrial. Elaboração de esquemas elétricos para montagem de quadros elétricos utilizando o EPLAN. – 06/10/2014 até 30/04/2018",
+            "Liderança técnica no desenvolvimento de aplicativos móveis voltados à automação industrial. Desenvolvimento completo de aplicações Flutter, da concepção à publicação. Criação do aplicativo CoPal, utilizado para parametrização e controle de robôs industriais. Design e implementação da UX/UI focada em ambientes industriais. Garantia de alta performance e confiabilidade em sistemas críticos. Integração entre software mobile e hardware de automação (IoT). - Outubro de 2020 até Maio de 2024",
         "en-US":
-            "Development of automation projects involving industrial monitoring systems (Scada), robotics and applications focused on industrial painting processes. Preparation of electrical diagrams for assembling electrical panels using EPLAN. – 10/06/2014 to 04/30/2018",
+            "Technical leadership in the development of mobile applications for industrial automation. Complete development of Flutter applications, from conception to publication. Creation of the CoPal application, used for parameterization and control of industrial robots. Design and implementation of UX/UI focused on industrial environments. Ensuring high performance and reliability in critical systems. Integration between mobile software and automation hardware (IoT). - October 2020 to May 2024",
       } +
+      {"pt-BR": "Desenvolvedor de Automação na Nova Tecnologia", "en-US": "Automation Developer at Nova Tecnologia"} +
       {
-        "pt-BR": "Técnico em eletrônica na Flex Automation",
-        "en-US": "Electronics technician at Flex Automation",
+        "pt-BR": "Desenvolvimento de sistemas de automação industrial com SCADA. Programação de robôs industriais para processos de pintura. Elaboração de projetos elétricos e quadros de comando (EPLAN). Otimização e controle de processos industriais. - Outubro de 2014 até Abril de 2018",
+        "en-US": "Development of industrial automation systems with SCADA. Programming of industrial robots for painting processes. Electrical project design and control panels (EPLAN). Optimization and control of industrial processes. - October 2014 to April 2018",
       } +
+      {"pt-BR": "Técnico em Eletrônica na Flex Automation", "en-US": "Electronics Technician at Flex Automation"} +
       {
-        "pt-BR":
-            "Responsável pelo gerenciamento do setor de manutenção de módulos de automação residencial, também fiz parte do time que efetuava manutenção e montagem de placas de circuito eletrônico. - 02/05/2014 até 30/09/2014",
-        "en-US":
-            "Responsible for managing the maintenance sector of home automation modules, I was also part of the team that carried out maintenance and assembly of electronic circuit boards. - 02/05/2014 until 30/09/2014",
+        "pt-BR": "Manutenção e montagem de placas eletrônicas (SMD e PTH). Gerenciamento do setor de manutenção de automação residencial. Testes, controle de qualidade e diagnóstico de falhas. - Maio de 2014 até Setembro de 2014",
+        "en-US": "Maintenance and assembly of electronic boards (SMD and PTH). Management of the home automation maintenance sector. Testing, quality control, and fault diagnosis. - May 2014 to September 2014",
       } +
+      {"pt-BR": "Estagiário de Automação na Nova Tecnologia", "en-US": "Automation Intern at Nova Tecnologia"} +
       {
-        "pt-BR": "Estagiário de automação na Nova Tecnologia",
-        "en-US": "Automation intern at Nova Tecnologia",
+        "pt-BR": "Desenvolvimento de sistemas de controle para automação predial. Implementação de soluções de eficiência energética. Suporte técnico em projetos industriais. - Novembro de 2012 até Outubro de 2013",
+        "en-US": "Development of control systems for building automation. Implementation of energy efficiency solutions. Technical support in industrial projects. - November 2012 to October 2013",
       } +
-      {
-        "pt-BR":
-            "Desenvolvimento de sistemas de controle e automação predial e de eficiência energética.  05/11/2012 até 25/10/2013.",
-        "en-US":
-            "Development of building control and automation and energy efficiency systems. 05/11/2012 until 25/10/2013.",
-      } +
-      {"pt-BR": "Formação Acadêmica", "en-US": "Academic education"} +
-      {
-        "pt-BR": "Graduação em Engenharia de Controle e Automação",
-        "en-US": "Degree in Control and Automation Engineering",
-      } +
-      {
-        "pt-BR":
-            "IFSP Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - 01/06/2009 a 28/08/2019",
-        "en-US":
-            "IFSP Federal Institute of Education, Science and Technology of São Paulo - 06/01/2009 to 08/28/2019",
-      } +
+      {"pt-BR": "Formação Acadêmica", "en-US": "Education"} +
+      {"pt-BR": "Engenharia de Controle e Automação", "en-US": "Control and Automation Engineering"} +
+      {"pt-BR": "IFSP – Instituto Federal de São Paulo - 2009 – 2019", "en-US": "IFSP – Federal Institute of São Paulo - 2009 – 2019"} +
       {"pt-BR": "Técnico em Eletrônica", "en-US": "Electronics Technician"} +
-      {
-        "pt-BR": "ETEC Professor Aprígio Gonzaga - 01/06/2007 a 15/12/2008",
-        "en-US": "ETEC Professor Aprígio Gonzaga - 06/01/2007 to 12/15/2008",
-      } +
-      {"pt-BR": "Cursos Complementares", "en-US": "Complementary courses"} +
-      {
-        "pt-BR":
-            "Certificado Profissional Google UX Design (Coursera - Nível 1 - Março de 2024)",
-        "en-US":
-            "Google UX Design Professional Certificate (Coursera - Level 1 - March 2024)",
-      } +
-      {
-        "pt-BR":
-            "Flutter Provider Essential Course (Udemy - Março/Abril de 2024)",
-        "en-US": "Flutter Provider Essential Course (Udemy - March/April 2024)",
-      } +
-      {"pt-BR": "Habilidades", "en-US": "Skills"} +
-      {
-        "pt-BR": "Linguagens: Dart, C/C++, Python, Bash, HTML, JavaScript",
-        "en-US": "Languages: Dart, C/C++, Python, Bash, HTML, JavaScript",
-      } +
-      {
-        "pt-BR": "Ferramentas: Android Studio, VSCode",
-        "en-US": "Tools: Android Studio, VSCode",
-      } +
-      {
-        "pt-BR":
-            "Plataformas: Flutter, Android, iOS, PlatformIO, Linux, Arduino",
-        "en-US": "Platforms: Flutter, Android, iOS, PlatformIO, Linux, Arduino",
-      } +
-      {
-        "pt-BR": "Versionamento de Código: Git, Github",
-        "en-US": "Code Versioning: Git, Github",
-      } +
-      {
-        "pt-BR": "Idiomas: Inglês avançado",
-        "en-US": "Languages: Portuguese and Advanced English",
-      } +
+      {"pt-BR": "ETEC Professor Aprígio Gonzaga - 2007 – 2008", "en-US": "ETEC Professor Aprígio Gonzaga - 2007 – 2008"} +
+      {"pt-BR": "Cursos e Certificações", "en-US": "Courses and Certifications"} +
+      {"pt-BR": "Google UX Design Certificate – Coursera (2024)", "en-US": "Google UX Design Certificate – Coursera (2024)"} +
+      {"pt-BR": "Flutter Provider Essential Course – Udemy (2024)", "en-US": "Flutter Provider Essential Course – Udemy (2024)"} +
+      {"pt-BR": "Tecnologias", "en-US": "Technologies"} +
+      {"pt-BR": "Mobile: Flutter • Dart • Android • iOS • Provider", "en-US": "Mobile: Flutter • Dart • Android • iOS • Provider"} +
+      {"pt-BR": "Web: React • TypeScript • JavaScript • HTML • CSS • Node.js", "en-US": "Web: React • TypeScript • JavaScript • HTML • CSS • Node.js"} +
+      {"pt-BR": "Cloud & DevOps: Microsoft Azure • CI/CD • Git • GitHub • Docker", "en-US": "Cloud & DevOps: Microsoft Azure • CI/CD • Git • GitHub • Docker"} +
+      {"pt-BR": "Outras Tecnologias: Python • C/C++ • Bash • Arduino • PlatformIO • Linux", "en-US": "Other Technologies: Python • C/C++ • Bash • Arduino • PlatformIO • Linux"} +
+      {"pt-BR": "Ferramentas: VS Code • Android Studio • Xcode • Figma • EPLAN", "en-US": "Tools: VS Code • Android Studio • Xcode • Figma • EPLAN"} +
+      {"pt-BR": "AI & Produtividade: GitHub Copilot • Cursor • Windsurf • Prompt Engineering", "en-US": "AI & Productivity: GitHub Copilot • Cursor • Windsurf • Prompt Engineering"} +
+      {"pt-BR": "Idiomas: Português (Nativo) • Inglês (Avançado)", "en-US": "Languages: Portuguese (Native) • English (Advanced)"} +
       {"pt-BR": "", "en-US": ""} +
       {"pt-BR": "", "en-US": ""};
 
