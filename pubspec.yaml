@@ -55,6 +55,7 @@ flutter:
     - assets/images/
     - assets/images/portfolio/
     - assets/images/portfolio/copal/
+    - assets/images/portfolio/myorbit/ 
     - assets/images/icons/
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

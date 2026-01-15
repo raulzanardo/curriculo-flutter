@@ -1,5 +1,5 @@
 import 'package:curriculo/localization/localization_portfolio.i18n.dart';
-import 'package:curriculo/pages/sub_page/page_porfolio_copal.dart';
+import 'package:curriculo/pages/sub_page/page_portfolio_copal.dart';
 import 'package:curriculo/pages/sub_page/page_portfolio_myorbit.dart';
 import 'package:curriculo/pages/sub_page/page_portfolio_petplace.dart';
 import 'package:curriculo/widgets/widget_portfolio_item.dart';
