@@ -1,1 +1,6 @@
+# Exclude build folder from language stats
 build/** linguist-vendored
+
+# Hide generated code from PR diffs
+*.g.dart linguist-generated=true
+*.freezed.dart linguist-generated=true
